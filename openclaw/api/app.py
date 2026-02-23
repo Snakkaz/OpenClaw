@@ -7,6 +7,7 @@ from fastapi import FastAPI
 from openclaw.config import settings
 from openclaw.vps import VPSManager
 
+from .portfolio_routes import portfolio_router
 from .routes import build_router
 
 _manager: VPSManager | None = None
@@ -28,6 +29,7 @@ def create_app() -> FastAPI:
         version="0.1.0",
     )
     app.include_router(build_router(get_manager))
+    app.include_router(portfolio_router)
     return app
 
 

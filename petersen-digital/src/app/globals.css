@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  ::selection {
+    background-color: theme("colors.brand.600");
+    color: white;
+  }
+}
+
+/* Prose styles for markdown content */
+.prose {
+  @apply text-zinc-300 leading-relaxed;
+}
+.prose h2 {
+  @apply text-xl font-semibold text-white mt-8 mb-3;
+}
+.prose h3 {
+  @apply text-lg font-semibold text-white mt-6 mb-2;
+}
+.prose p {
+  @apply mb-4;
+}
+.prose ul {
+  @apply list-disc pl-5 mb-4 space-y-1;
+}
+.prose code {
+  @apply font-mono text-sm bg-zinc-800 text-brand-300 px-1.5 py-0.5 rounded;
+}
+.prose pre {
+  @apply bg-zinc-900 border border-zinc-700 rounded-lg p-4 overflow-x-auto mb-4;
+}
+.prose pre code {
+  @apply bg-transparent px-0 py-0 text-zinc-300;
+}
+.prose a {
+  @apply text-brand-400 hover:text-brand-300 underline underline-offset-2;
+}

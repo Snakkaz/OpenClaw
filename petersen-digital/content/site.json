@@ -1,0 +1,33 @@
+{
+  "name": "Petersen Digital",
+  "tagline": "Jeg bygger ting på nettet som faktisk fungerer.",
+  "description": "Fullstack-utvikler og AI-spesialist fra Norge. Spesialist på Laravel/PHP, Node.js, API-integrasjoner og AI-drevne løsninger.",
+  "location": "Norge",
+  "available": true,
+  "email": "kontakt@petersendigital.no",
+  "whatsapp": "+4740393847",
+  "github": "",
+  "linkedin": "",
+  "services": [
+    {
+      "title": "Webutvikling",
+      "description": "Skreddersydde nettsider og webapplikasjoner i Laravel/PHP, HTML/CSS og JavaScript.",
+      "icon": "🌐"
+    },
+    {
+      "title": "API-integrasjoner",
+      "description": "Kobler systemer sammen med REST API-er, webhooks og automatiserte arbeidsflyter.",
+      "icon": "🔌"
+    },
+    {
+      "title": "AI-løsninger",
+      "description": "AI-agenter, chatboter og automatiske arbeidsflyter via WhatsApp, Telegram og mer.",
+      "icon": "🤖"
+    },
+    {
+      "title": "Node.js backend",
+      "description": "Skalerbare backends med Node.js, Next.js og moderne JavaScript-stack.",
+      "icon": "⚙️"
+    }
+  ]
+}
